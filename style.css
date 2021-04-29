@@ -1,0 +1,105 @@
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+
+    max-width: 50%;
+    
+   
+   
+    
+}
+
+
+.parent-class{
+
+    
+    border:1px solid gray;
+    padding:20px;
+}
+
+.heading{
+
+    font-weight: bold;
+    font-size:15px;
+    margin-top: 20px;
+   
+}
+
+.heading span{
+
+    color:red;
+}
+
+.txtbox{
+    margin:10px 10px 5px 0px;
+    border:2px solid rgb(197, 195, 195);
+    padding:5px;    
+}
+
+.child-class-left{
+
+    float:left;
+}
+
+.input-name span{
+
+font-size:11px;
+}
+
+
+.child-class{
+
+    margin-top: 10px;
+}
+
+#email{
+
+    width: 45%;
+}
+
+.star-img{
+
+    width: 20%;
+    height: auto;
+    margin-top:10px;
+   
+}
+.tabel-heading{
+
+    padding-left: 10px;
+    font-size:11px;
+   
+}
+table
+
+{
+
+    border-collapse: collapse;
+    margin-top: 20px;
+   
+   
+}
+table td{
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.highlight{
+
+    background-color:#ddd;
+    font-size:15px;
+}
+.tabel-centent{
+
+    text-align: left;
+    font-size: 13px;;
+}
+button{
+
+    padding: 5px;
+}
+

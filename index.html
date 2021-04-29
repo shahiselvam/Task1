@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form action="" method="get">
+    <div class="parent-class">
+
+        <div class="child-class-left">
+
+            <label for="name" class="heading">Name<span>*</span></label>
+            <br />
+            <label for="Firstname"class="input-name"><input type="text" name="First" id="firstname" class="txtbox" required > <br/><span>First</span> </label>
+            
+
+        </div>
+
+        <div class="child-class-right">
+
+            
+            <br />
+            <label for="LastName" class="input-name"><input type="text" name="Last" id="lastname" class="txtbox" required> <br/><span>Last</span> </label>
+            
+
+        </div>
+
+         <div class="child-class">
+            <label for="email" class="heading">Email<span>*</span></label>
+            <br>
+            <input type="text" name="email" id="email" class="txtbox" required>
+
+         </div>
+         
+         <div class="child-class">
+            <label for="experience" class="heading">Your Experience<span>*</span></label>
+            <br>
+
+            <img src="image/star.png" alt="star" class="star-img">
+
+             <p>Over all how would you rate your experience with us?</p>
+
+
+    </div>
+
+    <table>
+        <tr>
+            <td>
+            <label for="experience" class="heading">How Satisfed Are You with<span>*</span></label>
+        </td>
+        </tr>
+        
+       <tr>
+           <td></td>
+           <td>
+
+           <label for="tabel-heading" class="tabel-heading">
+               very unsatisfied
+           </label>
+
+           </td>
+           <td>
+
+            <label for="tabel-heading" class="tabel-heading">
+                unsatisfied
+            </label>
+ 
+            </td>
+
+            <td>
+
+                <label for="tabel-heading" class="tabel-heading">
+                   Neutral
+                </label>
+     
+                </td>
+                <td>
+
+                    <label for="tabel-heading" class="tabel-heading">
+                        satisfied
+                    </label>
+         
+                    </td>
+                    <td>
+
+                        <label for="tabel-heading" class="tabel-heading">
+                            Very satisfied
+                        </label>
+             
+                        </td>
+       </tr>
+
+       <tr class="highlight" >
+           <td class="tabel-centent"> 
+
+            <label for="tabel-content" class="tabel-centent">
+                Purchase
+            </label>
+           </td>
+           <td>
+               <input type="radio" name="Purchase" id="" class="radio" >
+           </td>
+           <td>
+            <input type="radio" name="Purchase" id="" class="radio" >
+        </td>
+        <td>
+            <input type="radio" name="Purchase" id="" class="radio" >
+        </td>
+        <td>
+            <input type="radio" name="Purchase" id="" class="radio" >
+        </td>
+        <td>
+            <input type="radio" name="Purchase" id="" class="radio" >
+        </td>
+       </tr>
+       <tr class="un-highlight" >
+        <td class="tabel-centent">
+
+         <label for="tabel-content" class="tabel-centent">
+             Service
+         </label>
+        </td>
+        <td>
+            <input type="radio" name="Service" id="" class="radio" >
+        </td>
+        <td>
+         <input type="radio" name="Service" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Service" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Service" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Service" id="" class="radio" >
+     </td>
+    </tr>
+
+    <tr class="highlight" >
+        <td class="tabel-centent"> 
+
+         <label for="tabel-content" class="tabel-centent">
+             Company OverAll
+         </label>
+        </td>
+        <td>
+            <input type="radio" name="Company" id="" class="radio" >
+        </td>
+        <td>
+         <input type="radio" name="Company" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Company" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Company" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Company" id="" class="radio" >
+     </td>
+    </tr>
+    <tr>
+        <td>
+        <label for="experience" class="heading">How Satisfed Are You with<span>*</span></label>
+    </td>
+    </tr>
+       <tr>
+           <td></td>
+           <td >
+
+           <label for="tabel-heading" class="tabel-heading">
+               very Unlikely
+           </label>
+
+           </td>
+           <td>
+
+            <label for="tabel-heading" class="tabel-heading">
+                Unlikely
+            </label>
+ 
+            </td>
+
+            <td>
+
+                <label for="tabel-heading" class="tabel-heading">
+                   Neutral
+                </label>
+     
+                </td>
+                <td>
+
+                    <label for="tabel-heading" class="tabel-heading">
+                        Likely
+                    </label>
+         
+                    </td>
+                    <td>
+
+                        <label for="tabel-heading" class="tabel-heading">
+                            Very Likely
+                        </label>
+             
+                        </td>
+       </tr>
+
+       <tr class="highlight" >
+           <td class="tabel-centent"> 
+
+            <label for="tabel-content" class="tabel-centent">
+                Buy From Us Again
+            </label>
+           </td>
+           <td>
+               <input type="radio" name="Buy" id="" class="radio" >
+           </td>
+           <td>
+            <input type="radio" name="Buy" id="" class="radio" >
+        </td>
+        <td>
+            <input type="radio" name="Buy" id="" class="radio" >
+        </td>
+        <td>
+            <input type="radio" name="Buy" id="" class="radio" >
+        </td>
+        <td>
+            <input type="radio" name="Buy" id="" class="radio" >
+        </td>
+       </tr>
+       <tr class="un-highlight" >
+        <td class="tabel-centent">
+
+         <label for="tabel-content" class="tabel-centent">
+            Recommended Our Products To Others
+         </label>
+        </td>
+        <td>
+            <input type="radio" name="Recommended" id="" class="radio" >
+        </td>
+        <td>
+         <input type="radio" name="Recommended" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Recommended" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Recommended" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Recommended" id="" class="radio" >
+     </td>
+    </tr>
+
+    <tr class="highlight" >
+        <td class="tabel-centent"> 
+
+         <label for="tabel-content" class="tabel-centent">
+            Recommended Our Company To Others
+         </label>
+        </td>
+        <td>
+            <input type="radio" name="Others" id="" class="radio" >
+        </td>
+        <td>
+         <input type="radio" name="Others" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Others" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Others" id="" class="radio" >
+     </td>
+     <td>
+         <input type="radio" name="Others" id="" class="radio" >
+     </td>
+    </tr>
+
+    </table>
+<br>
+    <label for="experience" class="heading">Additional Comments or Suggestions<span>*</span></label>
+<br>
+   <textarea name="" id="" cols="85" rows="10"></textarea>
+   <button type="submit" >Submit</button>
+    </div>
+
+
+    </form>
+</body>
+</html>
